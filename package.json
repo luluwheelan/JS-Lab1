@@ -1,0 +1,24 @@
+{
+  "name": "JS-Lab1",
+  "version": "1.0.0",
+  "description": "JavaScript Frameworks Lab1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luluwheelan/JS-Lab1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luluwheelan/JS-Lab1/issues"
+  },
+  "homepage": "https://github.com/luluwheelan/JS-Lab1#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
