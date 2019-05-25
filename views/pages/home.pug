@@ -1,0 +1,25 @@
+extends ../layouts/main.pug
+
+block content
+    h1 Routes Table
+
+    table(style='width:50%', border='1')
+        tr
+            th Page Number
+            th Page Title
+            th Link
+        tr
+            td 001
+            td Home
+            td 
+                a(href='/') Go to home page
+        tr
+            td 002
+            td About
+            td 
+                a(href='/about') Go to about page
+        tr
+            td 003
+            td Contact
+            td
+                a(href='/contact') Go to contact page

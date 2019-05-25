@@ -1,16 +1,9 @@
 const router = require(`express`).Router();
 
 
-//Register two routes to router object
-router.get('/', (req, res) => {
-	res.send(`Table`);
-});
+const PagesController = require(`../controllers/pagesControllers`);
 
-router.get('/about',(req, res) =>{
-	res.send(`About page`);
-})
-
-router.get('/contact',(req, res) =>{
-	res.send(`Contact page`);
-})
+router.get(`/`, PagesController.show);
+router.get(`/about`, PagesController.show);
+router.get(`/contact`, PagesController.show);
 module.exports = router;
