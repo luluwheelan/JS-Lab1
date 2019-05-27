@@ -1,7 +1,10 @@
+
+block globals
+
 doctype html
 html(lang='en')
     head
-        title My Title
+        title=(title ? title : "No title")
 
     body
         block content
